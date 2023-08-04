@@ -28,8 +28,10 @@
     "greet": "yarn hardhat deploy-zksync --script use-greeter.ts"
   },
   "dependencies": {
+    "@matterlabs/hardhat-zksync-upgradable": "^0.1.2",
     "@matterlabs/zksync-contracts": "^0.6.1",
     "@openzeppelin/contracts": "^4.9.3",
-    "@openzeppelin/contracts-upgradeable": "^4.9.3"
+    "@openzeppelin/contracts-upgradeable": "^4.9.3",
+    "@openzeppelin/upgrades-core": "^1.27.3"
   }
 }
