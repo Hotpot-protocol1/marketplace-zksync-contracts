@@ -13,6 +13,7 @@ This project was scaffolded with [zksync-cli](https://github.com/matter-labs/zks
 
 - `yarn hardhat compile` will compile the contracts.
 - `yarn hardhat deploy-zksync --script marketplace.ts --network zkSyncTestnet` will execute the deployment script `/deploy/marketplace.ts`. Requires [environment variable setup](#environment-variables).
+- `yarn hardhat verify <address> --network zkSyncTestnet` to verify proxy contracts
 
 ### Environment variables
 
